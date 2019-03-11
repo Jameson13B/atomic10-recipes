@@ -35,7 +35,7 @@
       </div>
       <!-- add ingredient -->
       <div class="field add-ingredient">
-        <label for="add-ingredient">Add an ingredient:</label>
+        <label for="add-ingredient">Add an ingredient: (enter to add)</label>
         <input type="text" name="add-ingredient" @keydown.tab.prevent="addIng" @keydown.enter.prevent="addIng" v-model="another" />
       </div>
       <!-- add button -->
